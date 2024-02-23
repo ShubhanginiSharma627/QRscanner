@@ -10,7 +10,7 @@ const WebViewComponent: React.FC = () => {
   const { websiteLink } = useAppContext();
 
   if (websiteLink){
-    return <WebView source={{ uri: websiteLink }} />;
+    return <WebView source={{ uri: "https://www.npmjs.com/package/react-native-qrcode-scanner" }} />;
   }
   return
 };

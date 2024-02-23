@@ -12,7 +12,7 @@ const QRCodeScannerScreen: React.FC<QRCodeScannerScreenProps> = () => {
   const navigation = useNavigation();
   const { setWebsiteLink } = useAppContext();
   const handleScan = (scannedLink: string) => {
-    navigation.navigate('WebView');
+    navigation.navigate('Webview');
   };
   return (
     <View style={styles.container}>
