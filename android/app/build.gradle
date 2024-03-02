@@ -82,6 +82,7 @@ android {
         versionCode 1
         versionName "1.0"
         missingDimensionStrategy 'react-native-camera', 'mlkit'
+        manifestPlaceholders = [FirebaseAuthDomain: "qrscanner-6edf4.firebaseapp.com"]
     }
     signingConfigs {
         debug {
